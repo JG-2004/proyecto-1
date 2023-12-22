@@ -25,3 +25,28 @@ header h1 {
 article img {
     width: 100%;
 }
+
+footer {
+    background-color: #222222;
+}
+
+footer h1 {
+    padding: 20px 0px 0px 60px;
+    color: white;
+}
+
+footer h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+footer ul{
+    padding: 0px 50px 70px 0px;
+}
+
+footer ul li a {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
