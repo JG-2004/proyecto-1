@@ -4,21 +4,21 @@
     box-sizing: border-box;
 }
 
-#inicio {
+.inicio {
     background-image: url(/img/img_header.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 855px;
 }
 
-#nosotros {
+.nosotros {
     background-image: url(/img/img_header_nostros.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 855px;
 }
 
-#carta {
+.carta {
     background-image: url(/img/img-header-carta.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ article img {
     width: 100%;
 }
 
-#platillos .container .row .col-lg-5{
+.platillos .container .row .col-lg-5{
     width: 492px;
     height: 262px;
     padding-top: 35px;
@@ -56,22 +56,22 @@ article img {
 }
 
 
-#platillos .container .row .col-lg-5{
+.platillos .container .row .col-lg-5{
     margin: 1rem 0;
     border-radius: 1rem;
     background-color: white;
 }
 
-#platillos .container .row .col-lg-5:hover{
+.platillos .container .row .col-lg-5:hover{
     transition: all 0.3s ease;
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
-#platillos .container .row .col-lg-5 div{
+.platillos .container .row .col-lg-5 div{
     padding: 20px 0px 0px 15px;
 }
 
-#platillos{
+.platillos{
     padding: 96px 0px 214px;
 }
 
@@ -94,13 +94,13 @@ footer h2{
     color: white;
 }
 
-footer ul{
+footer nav{
     padding: 0px 50px 70px 0px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer ul li a {
-    display: flex;
-    justify-content: flex-end;
     color: white;
 }
 
