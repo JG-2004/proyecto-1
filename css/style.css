@@ -4,8 +4,22 @@
     box-sizing: border-box;
 }
 
-header {
+#inicio {
     background-image: url(/img/img_header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 855px;
+}
+
+#nosotros {
+    background-image: url(/img/img_header_nostros.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 855px;
+}
+
+#carta {
+    background-image: url(/img/img-header-carta.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 855px;
@@ -19,11 +33,50 @@ header img {
 
 header h1 {
     color: white;
-    float: left;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 198px;
+    font-size: 98px;
+}
+
+.todo {
+    background-color: #efefef;
 }
 
 article img {
     width: 100%;
+}
+
+#platillos .container .row .col-lg-5{
+    width: 492px;
+    height: 262px;
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#platillos .container .row .col-lg-5{
+    margin: 1rem 0;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+#platillos .container .row .col-lg-5:hover{
+    transition: all 0.3s ease;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+#platillos .container .row .col-lg-5 div{
+    padding: 20px 0px 0px 15px;
+}
+
+#platillos{
+    padding: 96px 0px 214px;
+}
+
+.img-carta {
+    width: 200px;
 }
 
 footer {
@@ -49,4 +102,28 @@ footer ul li a {
     display: flex;
     justify-content: flex-end;
     color: white;
+}
+
+p {
+    font-size: 40px;
+}
+
+.descripcion-carta {
+    font-size: 16px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.subtitulos {
+    padding: 140px;
+}
+
+.subtitulo-carta{
+    padding: 197px 0px 100px;
+}
+
+.col-lg-7 h3 {
+    padding: 50px;
 }
