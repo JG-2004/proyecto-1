@@ -3,41 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto | LA 39</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ac787c6fb3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-1 col-lg-4">
-                    <img src="" alt="">
+                <div class="col-2 col-lg-2">
+                    <img 
+                        src="img/logo.jpg"
+                        alt=""
+                    >
                 </div>
-                <div class="col-4 col-lg-8">
+
+                <div class="col-10 col-lg-8 offset-lg-2">
                     <nav>
                         <ul>
-                            <li>
-                                <a href="">INICIO</a>
+                            <li>                      
+                                <a     
+                                class="icono"                                                        
+                                href="/index.html"
+                                >
+                                <i class="fa-solid fa-house"></i>
                             </li>
-                            <li>
-                                <a href="">LA CARTA</a>
+
+                            <li>                      
+                                <a 
+                                href="/index.html"
+                                >                            
+                                    INICIO
+                                </a>
                             </li>
+                            
                             <li>
-                                <a href="">NOSOTROS</a>
+                                <a 
+                                href="/carta.html"
+                                target="_blank"
+                                > 
+                                    LA CARTA 
+                                </a>
                             </li>
+
                             <li>
-                                <a href="">CONTÁCTANOS</a>
+                                <a 
+                                href="/nosotros.html"
+                                target="_blank"
+                                > 
+                                    NOSOTROS 
+                                </a>
+                            </li>
+
+                            <li>
+                                <a 
+                                href="/contacto.html"
+                                target="_blank"
+                                > 
+                                    CONTÁCTANOS 
+                                </a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                <div class="row">
-                    <div class="col-2 col-lg-12">
-                        <h1>CONTÁCTO</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid" id="imagen-header-contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 col-lg-12">
+                    <h1>Contacto</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 formulario">
+                    <div class="col-lg-4 offset-lg-1">
+                       <form action="">
+                            <label for="">Nombres/Apellidos</label>
+                            <input type="text" name="nombre/apellidos" id="nombre/apellidos">
+                            <label for="">Teléfono</label>
+                            <input type="tel" name="teléfono" id="teléfono">
+                       </form>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
+
+    <section class="container-fluid">
+        <article class="container">
+            <div class="row">
+                <img src="/img/imagen-mapa.png" alt="">
+            </div>
+        </article>
+    </section>
 </body>
+<footer class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <section class="col-lg-6">
+                <h2>
+                    "LA 39"
+                </h2>
+    
+                <h4>
+                    CONTÁCTANOS
+                </h4>
+
+                <ul class="contacto col-lg-6">
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class="lista-final col-lg-2 offset-lg-4">
+                <ul>
+                    <li>
+                        <a href="#">INICIO</a>
+                    </li>
+
+                    <li>
+                        <a href="#">LA CARTA</a>
+                    </li>
+
+                    <li>
+                        <a href="#">NOSOTROS</a>
+                    </li>
+
+                    <li>
+                        <a href="#">CONTÁCTANOS</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</footer>
+</html>

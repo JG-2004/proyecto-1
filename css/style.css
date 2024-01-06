@@ -1,129 +1,293 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
-
-.inicio {
-    background-image: url(/img/img_header.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 855px;
-}
-
-.nosotros {
-    background-image: url(/img/img_header_nostros.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 855px;
-}
-
-.carta {
-    background-image: url(/img/img-header-carta.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 855px;
+/* inicio del header */
+header {
+    position: absolute;
+    margin-top: 15px;
 }
 
 header img {
-    margin-top: 20px;
     border-radius: 100%;
     width: 100%
 }
 
-header h1 {
-    color: white;
+header ul {
     display: flex;
-    align-items: flex-end;
-    padding-top: 198px;
-    font-size: 98px;
+    justify-content: space-between;
+    padding-top: 45px;
+    list-style: none;
+    text-align: center;
 }
 
-.todo {
-    background-color: #efefef;
+header nav ul li a {
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: bold;
 }
 
+header nav ul li .icono {
+    position: relative;
+}
+
+header nav ul li .icono i{
+    position: absolute;
+    font-size: 26px;
+    right: -85px;
+}
+
+#imagen-header-inicio {
+    background-image: url("/img/img_header.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 230px;
+    padding-bottom: 265px;
+}
+
+#imagen-header-inicio h1 {
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#imagen-header-contacto {
+    background-image: url("/img/img-header-4.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 230px;
+    padding-bottom: 320px;
+}
+
+#imagen-header-contacto h1 {
+    color: white;
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#imagen-header-nosotros {
+    background-image: url("/img/img_header_nostros.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 230px;
+    padding-bottom: 265px;
+}
+
+#imagen-header-nosotros h1 {
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#imagen-header-carta {
+    background-image: url("/img/img-header-carta.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 230px;
+    padding-bottom: 265px;
+}
+
+#imagen-header-carta h1 {
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* fin del header */
+
+/* comienzo de las secciones en general */
+
+/* secciones de la pagina de inicio */
 article img {
     width: 100%;
 }
 
-.platillos .container .row .col-lg-5{
-    width: 492px;
-    height: 262px;
-    padding-top: 35px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.subtitulo {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    color: #003F5B;
+    font-size: 38px;
+    font-weight: bold;
+    border-bottom: 4px solid #003F5B;
+}
+
+.platos h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #BB852B;
+}
+
+.pedidos {
+    padding-top: 130px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.parrafo-pedidos {
+    font-size: 22px;
+}
+
+#parrafo-strong {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.pedidos-logo {
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 45px;
+}
+
+.nuestro-restaurant {
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+
+#parrafo-restaurant {
+    font-size: 35px;
+    font-family: 'Mitr', sans-serif;
+    color: #BB852B;
+    padding-bottom: 120px;
+}
+/* terminacion de las 
+secciones de la pagina de inicio */
+
+/* inicio de estilos de Nosotros*/
+
+
+#nosotros img {
+    width: 100%;
+}
+
+#nosotros p {
+    font-size: 40px;
 }
 
 
-.platillos .container .row .col-lg-5{
-    margin: 1rem 0;
-    border-radius: 1rem;
-    background-color: white;
+#nosotros h3 {
+    text-align: center;
 }
 
-.platillos .container .row .col-lg-5:hover{
-    transition: all 0.3s ease;
-    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+#nosotros .subtitulos {
+    padding: 140px;
 }
 
-.platillos .container .row .col-lg-5 div{
-    padding: 20px 0px 0px 15px;
+#nosotros .col-lg-7 h3 {
+    padding: 50px;
+}
+
+/*fin de estilos de nosotros*/
+
+/*comienzo estilos carta*/
+.todo {
+    background-color: #efefef;
+}
+
+.carta p{
+    font-size: 40px;
+}
+
+.subtitulo-carta{
+    font-size: 48px;
+    padding: 197px 0px 100px;
 }
 
 .platillos{
     padding: 96px 0px 214px;
 }
 
-.img-carta {
-    width: 200px;
+.bloque-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 495px;
 }
 
-footer {
-    background-color: #222222;
+.bloque-card .col-lg-7 {
+    padding-top: 20px;
 }
 
-footer h1 {
-    padding: 20px 0px 0px 60px;
-    color: white;
+.bloque-card img {
+    width: 100%;
 }
 
-footer h2{
-    display: flex;
-    justify-content: center;
-    color: white;
+.bloque-card {
+    transition: all 0.3s ease;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
-footer nav{
-    padding: 0px 50px 70px 0px;
-    display: flex;
-    justify-content: flex-end;
+#bloques {
+    padding-top: 92px;
 }
 
-footer ul li a {
-    color: white;
+#bloques img {
+    width: 100%;
 }
-
-p {
-    font-size: 40px;
-}
-
 .descripcion-carta {
+    text-align: center;
+    width: 260px;
     font-size: 16px;
 }
+/*fin de estilos carta*/
 
-h3 {
-    text-align: center;
+/* footer comienzo */
+footer {
+    padding-top: 40px;
+    background-color: black;
+    height: 280px;
 }
 
-.subtitulos {
-    padding: 140px;
+footer h2 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 40px;
+    padding-left: 0;
 }
 
-.subtitulo-carta{
-    padding: 197px 0px 100px;
+footer h4 {
+    color: white;
+    padding-left: 0;
+    margin-bottom: 12px;
 }
 
-.col-lg-7 h3 {
-    padding: 50px;
+footer ul {
+    list-style: none;
 }
+
+.contacto {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contacto {
+    list-style: none;
+    padding: 0;
+}
+
+footer .contacto a {
+    font-size: 30px;
+}
+
+footer .lista-final li {
+    margin-bottom: 20px;
+}
+
+footer section a {
+    text-decoration-line: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255)
+}
+/* terminacion del footer */

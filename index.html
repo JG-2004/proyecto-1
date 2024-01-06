@@ -3,107 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Principal</title>
+    <title>Restaurant "LA 39"</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ac787c6fb3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="inicio container-fluid">
-        <div class="container text-center">
-            <div class="row align-items-center">
+    <header class="container-fluid">
+        <div class="container">
+            <div class="row">
                 <div class="col-2 col-lg-2">
-                    <img src="img/LOGO.jpg"alt="">
+                    <img 
+                        src="img/logo.jpg"
+                        alt=""
+                    >
                 </div>
-                <div class="col-10 col-lg-6 offset-lg-2">
-                    <nav class="navbar-nav">
-                        <ul class="nav ">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">INICIO</a>
+
+                <div class="col-10 col-lg-8 offset-lg-2">
+                    <nav>
+                        <ul>
+                            <li>                      
+                                <a     
+                                class="icono"                                                        
+                                href="/index.html"
+                                >
+                                <i class="fa-solid fa-house"></i>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"> LA CARTA </a>
+                            <li>                      
+                                <a 
+                                href="/index.html"
+                                >                            
+                                    INICIO
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a 
+                                href="/carta.html"
+                                target="_blank"
+                                > 
+                                    LA CARTA 
+                                </a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"> NOSOTROS </a>
+                            <li>
+                                <a 
+                                href="/nosotros.html"
+                                target="_blank"
+                                > 
+                                    NOSOTROS 
+                                </a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"> CONTÁCTANOS </a>
+                            <li>
+                                <a 
+                                href="/contacto.html"
+                                target="_blank"
+                                > 
+                                    CONTÁCTANOS 
+                                </a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-        </div>
-        <div >
-            <img src="" alt="">
-        </div>
-        <div class="row">
-            <div class="col-2 col-lg-12">
-                <h1>RESTAURANT LA 39</h1>
             </div>
         </div>
     </header>
+
+    <div class="container-fluid" id="imagen-header-inicio">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 col-lg-12">
+                    <h1>Restaurant <br>LA 39</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="container-fluid">
         <article class="container">
             <div class="row">
-                <div class="col">
-                    <h2>LO RECOMENDADO</h2>
+                <div class="col-lg-4 offset-lg-4 text-center">
+                    <h2 class="subtitulo">LO RECOMENDADO</h2>
                 </div>
             </div>
 
-            <div class="row align-items-start">
-                <div class=" col-lg-4 text-center">
+            <div class="row">
+                <div class="platos col-lg-4 text-center">
                     <img src="img/trio-marino.png" alt="">
                     <h3>Trio Marino</h3>
                 </div>
 
-                <div class="col-lg-4 text-center">
+                <div class="platos col-lg-4 text-center">
                     <img src="img/leche-de-tigre.png" alt="">
                     <h3>Leche De Trigre</h3>
                 </div>
 
-                <div class="col-lg-4 text-center">
+                <div class="platos col-lg-4 text-center">
                     <img src="img/jalea-mixta.png" alt="">
                     <h3>Jalea Mixta</h3>
                 </div>
             </div>
+
             <div class="row">
-                <div class="col">
-                    <h2>NUESTRO RESTAURANT</h2>
-                    <p>
-                        En Restaurant “LA 39", la frescura del océano
-                        lo combinamos con la excelencia culinaria, dando
-                        como resultado que platos como el clásico Ceviche
-                        hasta el exclusivo Leche de Tigre, sean auténticos.
-                        Celebra la vida a través de la deliciosa abundancia
-                        del océano. ¡Redescubre tu
-                        amor por la comida marina con nosotros!
-                    </p>
+                <h3 class="pedidos col-lg-4 offset-lg-4 text-center">Pedidos</h3>
+
+                <P class="parrafo-pedidos col-lg-12 text-center">
+                    Ofrecemos un servicio de delivery eficiente y seguro. Realiza tu pedido en línea y te <br>
+                    entregaremos la esencia de la cevichería directamente en tu puerta."
+                </P>
+
+                <strong class="col-lg-10 offset-lg-1 text-center" id="parrafo-strong">Aceptamos los siguientes medios de pago</strong>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-lg-4">
+                    <a href="#">
+                        <img 
+                        src="/img/pedidos-ya.png" 
+                        class="pedidos-logo" 
+                        alt=""
+                        >
+                    </a>
                 </div>
+
+                <div class="col-lg-4">
+                    <a href="#">
+                        <img 
+                        src="/img/rappi.jpg" 
+                        class="pedidos-logo" 
+                        alt=""
+                        >
+                    </a>
+                </div>
+
+                <div class="col-lg-4">
+                    <a href="#">
+                        <img 
+                        src="/img/didi.png" 
+                        class="pedidos-logo" 
+                        alt=""
+                        >
+                    </a>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <h2 class="nuestro-restaurant col-lg-6 offset-lg-3 text-center">NUESTRO RESTAURANT</h2>
+                
+                <p id="parrafo-restaurant" class="col-lg-10 offset-lg-1 text-center">
+                    En Restaurant “LA 39", la frescura del océano 
+                    lo combinamos con la excelencia culinaria, dando
+                    como resultado que platos como el clásico Ceviche
+                    hasta el exclusivo Leche de Tigre, sean auténticos.
+                    <br>Celebra la vida a través de la deliciosa abundancia
+                    del océano. <br>
+                    <br> ¡Redescubre tu
+                    amor por la comida marina con nosotros!
+                </p>
             </div>
         </article>
     </section>
-    <footer>
-        <h1>"LA 39"</h1>
-        <div>
-            <h2>Contáctanos</h2>
-        </div>
-        <ul>
-            <li>
-                <a href="#">INICIO</a>
-            </li>
-            <li>
-                <a href="#">LA CARTA</a>
-            </li>
-            <li>
-                <a href="#">NOSOTROS</a>
-            </li>
-            <li>
-                <a href="#">CONTÁCTANOS</a>
-            </li>
-        </ul>
-    </footer>
 </body>
+
+<footer class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <section class="col-lg-6">
+                <h2>
+                    "LA 39"
+                </h2>
+    
+                <h4>
+                    CONTÁCTANOS
+                </h4>
+
+                <ul class="contacto col-lg-6">
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class="lista-final col-lg-2 offset-lg-4">
+                <ul>
+                    <li>
+                        <a href="#">INICIO</a>
+                    </li>
+
+                    <li>
+                        <a href="#">LA CARTA</a>
+                    </li>
+
+                    <li>
+                        <a href="#">NOSOTROS</a>
+                    </li>
+
+                    <li>
+                        <a href="#">CONTÁCTANOS</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</footer>
 </html>
