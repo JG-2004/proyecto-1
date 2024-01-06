@@ -33,15 +33,12 @@ header nav ul li a:hover {
     color: #49C4CC;
 }
 
-header nav ul li .icono {
-    position: relative;
+
+.fa-solid {
+    font-size: 26px;
+    padding-right: 10px;
 }
 
-header nav ul li .icono i{
-    position: absolute;
-    font-size: 26px;
-    right: -85px;
-}
 
 #imagen-header-inicio {
     background-image: url("/img/img_header.png");
