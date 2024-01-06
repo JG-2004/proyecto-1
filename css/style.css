@@ -22,10 +22,15 @@ header ul {
 }
 
 header nav ul li a {
+    transition: color 0.3 ease;
     text-decoration-line: none;
     color: rgb(255, 255, 255);
     font-size: 22px;
     font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #49C4CC;
 }
 
 header nav ul li .icono {
@@ -55,7 +60,7 @@ header nav ul li .icono i{
 }
 
 #imagen-header-contacto {
-    background-image: url("/img/img-header-4.jpeg");
+    background-image: url("/img/img-header-contacto.jpeg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -319,8 +324,13 @@ footer .lista-final li {
 }
 
 footer section a {
+    transition: color 0.3 ease;
     text-decoration-line: none;
     font-size: 20px;
     color: rgb(255, 255, 255)
+}
+
+footer section a:hover {
+    color: #49C4CC;
 }
 /* terminacion del footer */
