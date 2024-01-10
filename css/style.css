@@ -220,6 +220,57 @@ secciones de la pagina de inicio */
     text-align: center;
 }
 
+@media (max-width: 576px) {
+    .subtitulo-nosotros {
+        padding-top: 70px;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+        color: #49C4CC;
+        font-size: 28px;
+        font-weight: bold;
+        border-bottom: 4px solid #49C4CC;
+    }
+    
+    #nosotros h3 {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 24px;
+        color: #49C4CC;
+        text-align: center;
+    }
+    
+    #nosotros p {
+        color: #BB852B;
+        font-size: 18px;
+    }
+
+    #nosotros .col-lg-7 h3 {
+        padding: 11px;
+    }
+
+    .article1 {
+        padding-bottom: 30px;
+    }
+
+    .subtitulo-nosotros2 {
+        font-family: 'Kaushan Script', cursive;
+        padding-top: 38px;
+        margin-bottom: 13px;
+        color: #49C4CC;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .subtitulo-nosotros3 {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #49C4CC;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
 /*fin de estilos de nosotros*/
 
 /*comienzo estilos carta*/
