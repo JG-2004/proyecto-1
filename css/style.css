@@ -460,7 +460,7 @@ secciones de la pagina de inicio */
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    width: 545px;
+    width: 500px;
 }
 
 .bloque-card .col-lg-7 {
@@ -481,11 +481,11 @@ secciones de la pagina de inicio */
 }
 
 .bloques img {
-    width: 70%;
+    width: 80%;
 }
 .descripcion-carta {
     text-align: center;
-    width: 460px;
+    width: 450px;
     font-size: 26px;
 }
 }
