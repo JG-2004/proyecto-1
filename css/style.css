@@ -435,6 +435,60 @@ secciones de la pagina de inicio */
     width: 260px;
     font-size: 16px;
 }
+
+@media (max-width: 676px) {.carta p{
+    color: #003F5B;
+    font-size: 40px;
+}
+
+.subtitulo-carta{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    color: #BB852B;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 4px solid #BB852B;
+}
+
+.platillos{
+    padding: 56px 0px 104px;
+}
+
+.bloque-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 545px;
+}
+
+.bloque-card .col-lg-7 {
+    padding-top: 40px;
+}
+
+.bloque-card img {
+    width: 100%;
+}
+
+.bloque-card {
+    transition: all 0.3s ease;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.bloques {
+    padding-top: 12px;
+}
+
+.bloques img {
+    width: 60%;
+}
+.descripcion-carta {
+    text-align: center;
+    width: 510px;
+    font-size: 36px;
+}
+}
 /*fin de estilos carta*/
 
 /* footer comienzo */
