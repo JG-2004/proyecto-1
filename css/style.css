@@ -489,4 +489,16 @@ footer section a {
 footer section a:hover {
     color: #49C4CC;
 }
+
+@media (max-width: 576px) {
+    footer {
+        padding-top: 40px;
+        background-color: black;
+        height: 330px;
+    }
+
+    footer .contacto a {
+        padding: 5px;
+    }
+}
 /* terminacion del footer */
