@@ -38,7 +38,7 @@ header nav ul li a {
     text-decoration-line: none;
     color: white;
     font-size: 22px;
-    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header nav ul li a:hover {
@@ -398,7 +398,7 @@ secciones de la pagina de inicio */
 }
 
 .platillos{
-    padding: 96px 0px 214px;
+    padding: 96px 0px 114px;
 }
 
 .bloque-card {
@@ -410,11 +410,15 @@ secciones de la pagina de inicio */
 }
 
 .bloque-card .col-lg-7 {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .bloque-card img {
     width: 100%;
+}
+
+.caja {
+    padding-bottom: 40px;
 }
 
 .bloque-card {
@@ -426,14 +430,22 @@ secciones de la pagina de inicio */
     font-size: 16px;
 }
 
-@media (max-width: 500px) {
-    .carta p {
+.subtitulo-carta2 {
+    padding-top: 100px;
+    color: #49C4CC;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    #parrafo-carta {
         color: #003F5B;
-        font-size: 40px;
+        font-size: 20px;
     }
 
-    .subtitulo-carta    {
-         padding-top: 70px;
+    .subtitulo-carta {
+        padding-top: 70px;
         padding-bottom: 20px;
         margin-bottom: 40px;
         color: #BB852B;
@@ -450,25 +462,41 @@ secciones de la pagina de inicio */
         text-align: center;
         background-color: white;
         border-radius: 10px;
-        padding: 20px;
+        padding: 10px;
     }
 
     .bloque-card .col-lg-7 {
-        padding-top: 40px;
+        padding-top: 30px;
     }
 
     .bloque-card img {
-    width: 100%;
+        width: 200px;
+        padding-bottom: 20px;
+        padding-top: 30px;
     }
 
     .bloque-card {
         transition: all 0.3s ease;
         box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
     }
+    
     .descripcion-carta {
         text-align: center;
-        font-size: 26px;
+        font-size: 18px;
     }
+
+    .bloque-card strong {
+        font-size: 18px;
+    }
+
+    .subtitulo-carta2 {
+        padding-top: 20px;
+        color: #49C4CC;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
 }
 /*fin de estilos carta*/
 
@@ -531,7 +559,7 @@ footer section a:hover {
     }
 
     footer .contacto a {
-        padding: 5px;
+        padding: 10px;
         font-size: 32px;
     }
 
